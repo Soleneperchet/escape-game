@@ -27,21 +27,27 @@ body{margin: 0; padding: 0;}
 
 
 /* PARTIE CE QU'EST UN ESCAPE GAME */
-.container-explication-escape{display: flex; justify-content: center;}
+.container-explication-escape{display: flex; justify-content: center; margin-bottom: 115px; margin-top: 20px;}
 .content-text-explication{text-align: center; width: 68%;}
 .title-explication{font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 800; color: #FF9C38;}
-.text-explication{font-size: 25px; color: #464646; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.text-explication{font-size: 25px; color: #464646; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-bottom: 53px;}
 
 .row{display: flex; flex-direction: column; align-items: center;}
 .img-game-explication{width: 486px; height: 347px;}
-.img-absolute{position: absolute; left: 35%; top: 135%;}
-.img-expli-margin-01{margin-right: 70px;}
-.img-expli-margin-02{margin-left: 70px;}
+.content-img-game-01{margin-right: 110px;}
+.content-img-game-02{margin-left: 110px;}
+.content-img-game-absolute{position: absolute; left: 35%; top: 142%;}
+.content-img-explication{display: flex;}
+.title-game-explication{text-align: center; font-size: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 0;}
+/* FIN PARTIE CE QU'EST UN ESCAPE GAME */
+
+
+/* PARTIE CREATION NIVEAUX */
+.container-create-game{background-image: url('img/img-create-game.jpg'); width: 100%; height: auto; background-repeat: no-repeat; background-size: cover; position: relative; padding-bottom: 85px; padding-top: 37px;}
+.content-text-create-game{text-align: center; display: flex; flex-direction: column; align-items: center; color: white; }
+.title-create-game{font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 800;}
+.text-create-game{font-size: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-bottom: 50px;}
 
 
 
-
-
-
-
-
+/* FIN PARTIE CREATION NIVEAUX */
