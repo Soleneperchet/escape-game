@@ -2,10 +2,21 @@ body{margin: 0; padding: 0;}
 
 /* PREMIERE MAQUETTE */
 
+
 /* HEADER */
 
-
+/* IMAGES */
 .container-header{background-image: url('img/img-header-01.jpg');width: 100%; height: 100vh; background-repeat: no-repeat; background-size: cover; position: relative;}
+.img-logo-header{display: flex; justify-content: center;}
+.img-logo-header img{width: 20%; height: auto;}
+
+
+/* TEXTES */
+.title-head{text-transform: uppercase; font-size: 40px;}
+.text-head{font-size: 30px; }
+.container-text-header{color: white; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 800;}
+
+
 
 
 
@@ -18,43 +29,66 @@ body{margin: 0; padding: 0;}
 .triangle-left { width: 0; height: 0; border-top: 83px solid transparent; border-right: 54px solid #fba255; border-bottom: 83px solid transparent;}
 /* FIN FLECHES HEADER */
 
-.img-logo-header{display: flex; justify-content: center;}
-.img-logo-header img{width: 20%; height: auto;}
-.container-text-header{color: white; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 800;}
-.title-head{text-transform: uppercase; font-size: 40px;}
-.text-head{font-size: 30px; }
 
-.content-btn-play{text-align: center; margin-top: 65px;}
-.btn-play-header{outline: none;cursor: pointer ;color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 800; font-size: 49px; width: 490px; height: 122px; background-color: #FF9C38; border-radius: 50px; border: none; box-shadow: 0px 10px 0px 0px rgba(197,104,22,1);}
+/* FIN HEADER */
+
+
+
+
+
+
 
 
 /* PARTIE CE QU'EST UN ESCAPE GAME */
+
 .container-explication-escape{display: flex; justify-content: center; margin-bottom: 115px; margin-top: 20px;}
-.content-text-explication{text-align: center; width: 54%;}
+.row{display: flex; flex-direction: column; align-items: center;}
+
+/* TEXTES */
 .title-explication{font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 800; color: #FF9C38;}
 .text-explication{font-size: 25px; color: #464646; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-bottom: 53px;}
+.content-text-explication{text-align: center; width: 54%;}
+.title-game-explication-01, .title-game-explication-02, .title-game-explication-03{background-color: rgb(250, 250, 250); text-align: center; font-size: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 0;}
 
-.row{display: flex; flex-direction: column; align-items: center;}
+/* IMAGES */
 .img-game-explication{width: 486px; height: 347px;}
+
 
 /* FIN PARTIE CE QU'EST UN ESCAPE GAME */
 
 
+
+
+
+
+
+
+
+
+
+
 /* PARTIE CREATION NIVEAUX */
-.container-create-game{background-image: url('img/img-create-game.jpg'); width: 100%; height: auto; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; padding-bottom: 85px; padding-top: 37px;}
+
+
+/* TEXTES */
 .content-text-create-game{text-align: center; display: flex; flex-direction: column; align-items: center; color: white; }
 .title-create-game{font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 800;}
 .text-create-game{font-size: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-bottom: 50px;}
 
+/* IMAGES */
+.container-create-game{background-image: url('img/img-create-game.jpg'); width: 100%; height: auto; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; padding-bottom: 85px; padding-top: 37px;}
 
 
 /* FIN PARTIE CREATION NIVEAUX */
+
+/* BUTTON */
+.content-btn-play{text-align: center; margin-top: 65px;}
+.btn-play-header{outline: none;cursor: pointer ;color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 800; font-size: 49px; width: 490px; height: 122px; background-color: #FF9C38; border-radius: 50px; border: none; box-shadow: 0px 10px 0px 0px rgba(197,104,22,1);}
 
 
 /* FIN PREMIERE MAQUETTE */
 
 
-/* IMAGES */
 
 
 
@@ -62,21 +96,10 @@ body{margin: 0; padding: 0;}
 
 
 
+.content-img-explication{display: flex;}
 
 
 
-
-
-
-/* SECONDE MAQUETTE */
-
-
-
-
-
-
-
-/* FIN SECONDE MAQUETTE */
 
 /**********************MEDIA QUERIES**********************/
 
@@ -84,18 +107,22 @@ body{margin: 0; padding: 0;}
 
 /* PARTIE HEADER */
 
-.img-logo-header img { width: 40%; height: auto; }
+    /* IMAGES */
+        .img-logo-header img { width: 40%; height: auto; }
+
+    /* FLECHES */
+        .rectangle-left, .rectangle-right, .triangle-right, .triangle-left{display: none;}
 
 
-.content-btn-play{text-align: center; margin-top: 65px;}
-.btn-play-header{outline: none;cursor: pointer ;color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 800; font-size: 24.5px; width: 245px; height: 61px; background-color: #FF9C38; border-radius: 50px; border: none; box-shadow: 0px 10px 0px 0px rgba(197,104,22,1);}
-.rectangle-left, .rectangle-right, .triangle-right, .triangle-left{display: none;}
+
 
 /* PARTIE EXPLICATION ESCAPE */
-.text-explication { font-size: 18px; margin-bottom: 0; }
-.content-text-explication { text-align: center; width: 91%; }
 
-/* ANIMATION */
+    /* TEXTES */
+        .text-explication { font-size: 18px; margin-bottom: 0; }
+        .content-text-explication { text-align: center; width: 91%; }
+
+    /* ANIMATION */
 
 @keyframes cf3FadeInOut {
     0% { opacity:1; }
@@ -103,19 +130,15 @@ body{margin: 0; padding: 0;}
     55% { opacity:0; }
     100% { opacity:0; }
   }
-.content-img-explication{ position: relative; width: 100%; }
-.content-img-explication .transition-01 { display: block;  }
-.title-game-explication{background-color: rgb(250, 250, 250);  } 
-.content-img-explication  .transition-01{ position: absolute; top: 0; animation-name: cf3FadeInOut; animation-timing-function: ease-in-out; animation-iteration-count: infinite; animation-duration: 5s; animation-direction: alternate; animation-delay: -1s;}
-.content-img-explication  .transition-02{ position: absolute; top: 0; animation-name: cf3FadeInOut; animation-timing-function: ease-in-out; animation-iteration-count: infinite; animation-duration: 5s; animation-direction: alternate; animation-delay: 2s; }
-.content-img-explication{display: flex; justify-content: center;}
-.title-game-explication{text-align: center; font-size: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 0;}
-
-
-
+        .content-img-explication{ position: relative; width: 100%; }
+        .content-img-explication .transition-01 { display: block;  }
+        .content-img-explication  .transition-01{ position: absolute; top: 0; animation-name: cf3FadeInOut; animation-timing-function: ease-in-out; animation-iteration-count: infinite; animation-duration: 5s; animation-direction: alternate; animation-delay: -1s;}
+        .content-img-explication  .transition-02{ position: absolute; top: 0; animation-name: cf3FadeInOut; animation-timing-function: ease-in-out; animation-iteration-count: infinite; animation-duration: 5s; animation-direction: alternate; animation-delay: 2s; }
+        .content-img-explication{display: flex; justify-content: center;}
 
 /* PARTIE CREAT GAME */
-.text-create-game { font-size: 18px; margin-bottom: 50px; width: 96%; }
+    /* TEXTE */
+        .text-create-game { font-size: 18px; margin-bottom: 50px; width: 96%; }
     
 
 }
@@ -124,68 +147,82 @@ body{margin: 0; padding: 0;}
 @media (min-width: 576px) and (max-width: 767.98px) { 
     
 /* PARTIE HEADER */
-    .img-logo-header img { width: 36%; height: auto; }
-    .rectangle-left, .rectangle-right, .triangle-right, .triangle-left{display: none;}
+
+    /* IMAGE  */
+        .img-logo-header img { width: 36%; height: auto; }
+
+    /* FLECHES */
+        .rectangle-left, .rectangle-right, .triangle-right, .triangle-left{display: none;}
 
 
-    /* PARTIE EXPLICATION ESCAPE */
-.title-explication { font-size: 34px; }
-.content-text-explication { text-align: center; width: 95%; }
-.text-explication { font-size: 20px; margin-bottom: 53px; }
+/* PARTIE EXPLICATION ESCAPE */
 
-/* ANIMATION */
+    /* TEXTES */
+        .title-explication { font-size: 34px; }
+        .content-text-explication { text-align: center; width: 95%; }
+        .text-explication { font-size: 20px; margin-bottom: 53px; }
 
-    @keyframes cf3FadeInOut {
-        0% { opacity:1; }
-        45% { opacity:1; }
-        55% { opacity:0; }
-        100% { opacity:0; }
-      }
-.content-img-explication{ position: relative; width: 100%; }
+    /* ANIMATION */
 
-.content-img-explication .transition-01 { display: block;  }
-.title-game-explication{background-color: rgb(250, 250, 250);  } 
-.content-img-explication  .transition-01{ position: absolute; top: 0; animation-name: cf3FadeInOut; animation-timing-function: ease-in-out; animation-iteration-count: infinite; animation-duration: 5s; animation-direction: alternate; animation-delay: -1s;}
-.content-img-explication  .transition-02{ position: absolute; top: 0; animation-name: cf3FadeInOut; animation-timing-function: ease-in-out; animation-iteration-count: infinite; animation-duration: 5s; animation-direction: alternate; animation-delay: 2s; }
-.content-img-explication{display: flex; justify-content: center;}
-.title-game-explication{text-align: center; font-size: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 0;}
+        @keyframes cf3FadeInOut {
+            0% { opacity:1; }
+            45% { opacity:1; }
+            55% { opacity:0; }
+            100% { opacity:0; }
+        }
+        .content-img-explication{ position: relative; width: 100%; }
+        .content-img-explication .transition-01 { display: block;  }
+        .content-img-explication  .transition-01{ position: absolute; top: 0; animation-name: cf3FadeInOut; animation-timing-function: ease-in-out; animation-iteration-count: infinite; animation-duration: 5s; animation-direction: alternate; animation-delay: -1s;}
+        .content-img-explication  .transition-02{ position: absolute; top: 0; animation-name: cf3FadeInOut; animation-timing-function: ease-in-out; animation-iteration-count: infinite; animation-duration: 5s; animation-direction: alternate; animation-delay: 2s; }
+        .content-img-explication{display: flex; justify-content: center;}
+
 
 /* PARTIE CREATE GAME */
 
-.title-create-game { font-size: 37px; }
+    /* TEXTE */
+        .title-create-game { font-size: 37px; }
     
 
 
 }
 
 
+
 @media (min-width: 768px) and (max-width: 991.98px) { 
 
 /* PARTIE HEADER */
-.img-logo-header img { width: 35%; height: auto; }
-.rectangle-left, .rectangle-right { height: 20px; width: 127px; }
+
+    /* IMAGES  */
+        .img-logo-header img { width: 35%; height: auto; }
+
+    /* FLECHES */
+        .rectangle-left, .rectangle-right { height: 20px; width: 127px; }
+        .triangle-right { border-top: 75px solid transparent; border-left: 45px solid #fba255; border-bottom: 75px solid transparent; }
+        .triangle-left { border-top: 75px solid transparent; border-right: 45px solid #fba255; border-bottom: 75px solid transparent; }
+
+/* PARTIE EXPLICATION ESCAPE */        
+
+    /* TEXTES */
+        .content-text-explication { width: 90%; }
+        .title-explication { font-size: 40px; }
+        .title-game-explication-01, .title-game-explication-02, .title-game-explication-03{text-align: center; font-size: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 0;}
+        .title-game-explication-01{margin-right: 54px;}
+        .title-game-explication-03{margin-left: 54px;}
+
+
+    /* IMAGES */
+        .content-img-game-01 { margin-right: -110px; }
+        .content-img-game-absolute{z-index: 1; margin-top: 22px;}
+        .content-img-game-02 { margin-left: -110px; }
+        .content-img-explication img{width: 324px; height: 231.3px;}
+
+/* PARTIE CREAT GAME*/
+
+    /* TEXTES */ 
+        .title-create-game { font-size: 40px; }
+
+/* BUTTON */
 .btn-play-header { font-size: 49px; width: 415px; height: 105px;}
-.triangle-right { border-top: 75px solid transparent; border-left: 45px solid #fba255; border-bottom: 75px solid transparent; }
-.triangle-left { border-top: 75px solid transparent; border-right: 45px solid #fba255; border-bottom: 75px solid transparent; }
-.content-text-explication { width: 90%; }
-.title-explication { font-size: 40px; }
-.title-create-game { font-size: 40px; }
-
-
-
-
-
-.content-img-explication{display: flex;}
-.title-game-explication-01, .title-game-explication-02, .title-game-explication-03{text-align: center; font-size: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 0;}
-.title-game-explication-01{margin-right: 54px;}
-
-.title-game-explication-03{margin-left: 54px;}
-.content-img-game-01 { margin-right: -110px; }
-.content-img-game-absolute{z-index: 1; margin-top: 22px;}
-.content-img-game-02 { margin-left: -110px; }
-
-.content-img-explication img{width: 324px; height: 231.3px;}
-.img-game-explication{width: 486px; height: 347px;}
 
 }
 
@@ -193,20 +230,31 @@ body{margin: 0; padding: 0;}
 @media (min-width: 992px) and (max-width: 1199.98px) {
     
 /* PARTIE HEADER */
-.img-logo-header img { width: 35%; height: auto; }
-.btn-play-header { font-size: 49px; width: 415px; height: 105px;}
-.rectangle-left, .rectangle-right { height: 28px; width: 235px; }
-.triangle-right { border-top: 75px solid transparent; border-left: 45px solid #fba255; border-bottom: 75px solid transparent; }
-.triangle-left { border-top: 75px solid transparent; border-right: 45px solid #fba255; border-bottom: 75px solid transparent; }
+
+    /* IMAGES */
+        .img-logo-header img { width: 35%; height: auto; }
+        
+
+    /* FLECHES */
+        .rectangle-left, .rectangle-right { height: 28px; width: 235px; }
+        .triangle-right { border-top: 75px solid transparent; border-left: 45px solid #fba255; border-bottom: 75px solid transparent; }
+        .triangle-left { border-top: 75px solid transparent; border-right: 45px solid #fba255; border-bottom: 75px solid transparent; }
 
 
+/* PARTIE EXPLICATION ESCAPE */
 
-.content-text-explication { width: 99%; }
-.content-img-explication{display: flex;}
-.title-game-explication{text-align: center; font-size: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 0;}
-.content-img-game-01 { margin-right: -150px; }
-.content-img-game-absolute{z-index: 1; margin-top: 30px;}
-.content-img-game-02 { margin-left: -150px; }
+    /* TEXTES  */
+        .content-text-explication { width: 99%; }
+
+    /* IMAGES */
+        
+        .content-img-game-01 { margin-right: -150px; }
+        .content-img-game-absolute{z-index: 1; margin-top: 30px;}
+        .content-img-game-02 { margin-left: -150px; }
+
+
+/* BUTTON */
+    .btn-play-header { font-size: 49px; width: 415px; height: 105px;}
 
 
 }
@@ -214,37 +262,52 @@ body{margin: 0; padding: 0;}
 
 @media (min-width: 1200px) and (max-width: 1399.98px) { 
 
-    /* PARTIE HEADER */
-    .img-logo-header img { width: 35%; height: auto; }
-.btn-play-header { font-size: 49px; width: 415px; height: 105px;}
-.rectangle-left, .rectangle-right { height: 28px; width: 235px; }
-.triangle-right { border-top: 75px solid transparent; border-left: 45px solid #fba255; border-bottom: 75px solid transparent; }
-.triangle-left { border-top: 75px solid transparent; border-right: 45px solid #fba255; border-bottom: 75px solid transparent; }
+/* PARTIE HEADER */
+
+    /* IMAGES */
+        .img-logo-header img { width: 35%; height: auto; }
+
+    /* FLECHES */
+        .rectangle-left, .rectangle-right { height: 28px; width: 235px; }
+        .triangle-right { border-top: 75px solid transparent; border-left: 45px solid #fba255; border-bottom: 75px solid transparent; }
+        .triangle-left { border-top: 75px solid transparent; border-right: 45px solid #fba255; border-bottom: 75px solid transparent; }
+
+        
+/* PARTIE EXPLICATION ESCAPE */ 
+
+    /* IMAGES */
+        
+        .content-img-game-01 { margin-right: -150px; }
+        .content-img-game-absolute{z-index: 1; margin-top: 30px;}
+        .content-img-game-02 { margin-left: -150px; }
+
+    /* TEXTE */
+        .content-text-explication { width: 99%; }
+
+        
+/* BUTTON */
+    .btn-play-header { font-size: 49px; width: 415px; height: 105px;}
 
 
-
-
-.content-text-explication { width: 99%; }
-.content-img-explication{display: flex;}
-.title-game-explication{text-align: center; font-size: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 0;}
-.content-img-game-01 { margin-right: -150px; }
-.content-img-game-absolute{z-index: 1; margin-top: 30px;}
-.content-img-game-02 { margin-left: -150px; }
 
 
 }
 
 
 @media (min-width: 1400px) and (max-width: 1599.98px) { 
-    .img-logo-header img { width: 25%; height: auto; }
+
+/* PARTIE HEADER */
+
+    /* IMAGES */
+        .img-logo-header img { width: 25%; height: auto; }
  
  
+/* PARTIE EXPLICATION ESCAPE */
 
-
+    /* IMAGES */
 .content-img-game-01{margin-right: 110px;}
 .content-img-game-02{margin-left: 110px;}
-.content-img-explication{display: flex;}
-.title-game-explication{text-align: center; font-size: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 0;}
+
 .content-img-game-01 { margin-right: -150px; }
 .content-img-game-absolute{z-index: 1; margin-top: 30px;}
 .content-img-game-02 { margin-left: -150px; }
@@ -257,55 +320,59 @@ body{margin: 0; padding: 0;}
 @media (min-width: 1600px) and (max-width: 1799.98px) { 
 /* PARTIE HEADER */
 
-.img-logo-header img { width: 18%; height: auto; }
+    /* IMAGES */
+        .img-logo-header img { width: 18%; height: auto; }
 
 
-.content-btn-play{text-align: center; margin-top: 65px;}
-.btn-play-header{outline: none;cursor: pointer ;color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 800; font-size: 24.5px; width: 245px; height: 61px; background-color: #FF9C38; border-radius: 50px; border: none; box-shadow: 0px 10px 0px 0px rgba(197,104,22,1);}
-
-.btn-play-header { font-size: 49px; width: 415px; height: 105px;}
-.rectangle-left, .rectangle-right { height: 28px; width: 235px; }
-.triangle-right { border-top: 75px solid transparent; border-left: 45px solid #fba255; border-bottom: 75px solid transparent; }
-.triangle-left { border-top: 75px solid transparent; border-right: 45px solid #fba255; border-bottom: 75px solid transparent; }
-.content-text-explication { width: 70%; }
+    /* FLECHES */
+        .rectangle-left, .rectangle-right { height: 28px; width: 235px; }
+        .triangle-right { border-top: 75px solid transparent; border-left: 45px solid #fba255; border-bottom: 75px solid transparent; }
+        .triangle-left { border-top: 75px solid transparent; border-right: 45px solid #fba255; border-bottom: 75px solid transparent; }
 
 
-.content-img-game-01{margin-right: 110px;}
-.content-img-game-02{margin-left: 110px;}
-.content-img-explication{display: flex;}
-.title-game-explication{text-align: center; font-size: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 0;}
-.content-img-game-01 { margin-right: -150px; }
-.content-img-game-absolute{z-index: 1; margin-top: 30px;}
-.content-img-game-02 { margin-left: -150px; }
+/* PARTIE EXPLICATION ESCAPE */
 
+    /* IMAGES */
+        .content-img-game-01{margin-right: 110px;}
+        .content-img-game-02{margin-left: 110px;}
+      
+        .content-img-game-01 { margin-right: -150px; }
+        .content-img-game-absolute{z-index: 1; margin-top: 30px;}
+        .content-img-game-02 { margin-left: -150px; }
 
+    /* TEXTE */
+        .content-text-explication { width: 70%; }
+        .text-explication { font-size: 18px; margin-bottom: 50px; }
+        .content-text-explication { text-align: center; width: 47%; }
 
-/* PARTIE EXPLICATION GAME */
-
-
-.text-explication { font-size: 18px; margin-bottom: 50px; }
-.content-text-explication { text-align: center; width: 47%; }
-
-.content-img-game-01 { margin-right: -150px; }
-.content-img-game-absolute{z-index: 1; margin-top: 30px;}
-.content-img-game-02 { margin-left: -150px; }
 
 /* PARTIE CREAT GAME */
-.text-create-game { font-size: 18px; margin-bottom: 50px; width: 96%; }
+
+    /* TEXTE  */
+        .text-create-game { font-size: 18px; margin-bottom: 50px; width: 96%; }
    
+
+
+/* BUTTON */
+.content-btn-play{text-align: center; margin-top: 65px;}
+.btn-play-header{outline: none;cursor: pointer ;color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 800; font-size: 24.5px; width: 245px; height: 61px; background-color: #FF9C38; border-radius: 50px; border: none; box-shadow: 0px 10px 0px 0px rgba(197,104,22,1);}
+.btn-play-header { font-size: 49px; width: 415px; height: 105px;}
+
     
 
 }
 
 
 @media (min-width: 1800px) and (max-width: 1999.98px) { 
-    .content-img-game-01{margin-right: 110px;}
-    .content-img-game-02{margin-left: 110px;}
-    .content-img-explication{display: flex;}
-    .title-game-explication{text-align: center; font-size: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 0;}
-    .content-img-game-01 { margin-right: -150px; }
-    .content-img-game-absolute{z-index: 1; margin-top: 30px;}
-    .content-img-game-02 { margin-left: -150px; }
+
+/* PARTIE EXPLICATION ESCAPE */
+
+    /* IMAGES */
+        .content-img-game-01{margin-right: 110px;}
+        .content-img-game-02{margin-left: 110px;}
+        .content-img-game-01 { margin-right: -150px; }
+        .content-img-game-absolute{z-index: 1; margin-top: 30px;}
+        .content-img-game-02 { margin-left: -150px; }
   
 
 }
