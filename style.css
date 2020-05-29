@@ -76,10 +76,11 @@ body{margin: 0; padding: 0;}
 .btn-play-width{width: 27%;}
 .btn-create-width{width: 44%;} 
 
-.action-button{ height: 10%; padding: 10px 40px; border-radius: 50px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 800; font-size: 49px; text-decoration: none; background-color: #FF9C38; border-bottom: 10px solid rgb(197,104,22,1); transition: all 0.1s; -webkit-transition: all 0.1s;}
-.action-button:active{transform: translate(0px, 5px); -webkit-transform: translate(0px, 5px); border-bottom: 1px solid;}
+.btn-play-header{ height: 10%; padding: 10px 40px; border-radius: 50px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 800; font-size: 49px; text-decoration: none; background-color: #FF9C38; border-bottom: 10px solid rgb(197,104,22,1); transition: all 0.1s; -webkit-transition: all 0.1s;}
+.btn-play-header:active{transform: translate(0px, 5px); -webkit-transform: translate(0px, 5px); border-bottom: 1px solid;}
 
-
+a:hover { text-decoration: none;}
+a.text-light:focus, a.text-light:hover {color: white!important; }
 /* SECONDE MAQUETTE */
 
     /* IMAGES  */
@@ -101,7 +102,7 @@ body{margin: 0; padding: 0;}
         .card-real:hover .description-game-hover{ opacity: 1; } /*PERMET DE RENDRE VISIBLE LE TEXTE AU SURVOL DU CURSEUR*/
     /* FIN SURVOL */
 
-    /* .triangle-right {  width: 10%; height: 0; border-left: 18px solid transparent; border-right: 18px solid transparent; border-bottom: 30px solid blue;} */
+    .triangle-right {  width: 0; height: 0; border-left: 50px solid transparent; border-right: 50px solid transparent; border-bottom: 100px solid white; }
 
 
 
@@ -160,6 +161,7 @@ body{margin: 0; padding: 0;}
         /* SECONDE MAQUETTE */
 
 .img-card-game{ border-radius: 0%;}
+.cards-game-presta{display: none;}
     
 }
     
@@ -214,8 +216,10 @@ body{margin: 0; padding: 0;}
         
     /* SECONDE MAQUETTE */
 
-.img-card-game{width: 100%; height: 255px; border-radius: 0%;}
-    
+/* .img-card-game{width: 100%; height: 255px; border-radius: 0%;} */
+   
+.cards-game-presta{display: none;}
+
 }
 
 
@@ -260,9 +264,9 @@ body{margin: 0; padding: 0;}
 
 /* SECONDE MAQUETTE */
 
-.img-card-game{width: 100%; height: 345px;}
+/* .img-card-game{width: 100%; height: 345px;} */
 
-
+.cards-game-presta{display: none;}
 
 }
 
@@ -284,6 +288,7 @@ body{margin: 0; padding: 0;}
 /* SECONDE MAQUETTE */
 
 .img-card-game{width: 100%; height: 300px;}
+.cards-game-presta{display: none;}
 
 
 
@@ -315,8 +320,11 @@ body{margin: 0; padding: 0;}
     /* BUTTON */
         .btn-play-header { font-size: 49px; width: 415px; height: 105px;}
     
+
+
+
     
-    
+        .cards-game-presta{display: none;}
     
 }
     
@@ -341,6 +349,7 @@ body{margin: 0; padding: 0;}
     
         
     
+    .cards-game-presta{display: none;}
 }
     
     
@@ -385,7 +394,9 @@ body{margin: 0; padding: 0;}
     .btn-play-header{outline: none;cursor: pointer ;color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 800; font-size: 24.5px; width: 245px; height: 61px; background-color: #FF9C38; border-radius: 50px; border: none; box-shadow: 0px 10px 0px 0px rgba(197,104,22,1);}
     .btn-play-header { font-size: 49px; width: 415px; height: 105px;}
     
-        
+   
+    
+    .cards-game-presta{display: none;}
     
 }
     
@@ -402,4 +413,5 @@ body{margin: 0; padding: 0;}
             .content-img-game-02 { margin-left: -150px; }
       
     
+            .cards-game-presta{display: none;}
 }
