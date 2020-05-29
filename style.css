@@ -25,7 +25,7 @@ body{margin: 0; padding: 0;}
 
 /* FLECHES HEADER */
 .foo{ display: inline-block; vertical-align: middle;}
-.rectangle-left, .rectangle-right { height: 31px; width: 360px;}
+.rectangle-left, .rectangle-right { height: 31px; width: 360px; margin-top: 65px;}
 .rectangle-left{background: linear-gradient(to right,#fba255, #fba2558f, #fba2552d, #fba25500);}
 .rectangle-right{background: linear-gradient(to left,#fba255, #fba2558f, #fba2552d, #fba25500);}
 .triangle-right { width: 0; height: 0; border-top: 83px solid transparent; border-left: 54px solid #fba255; border-bottom: 83px solid transparent;}
@@ -73,11 +73,11 @@ body{margin: 0; padding: 0;}
 
 /* BUTTON */
 .content-btn-play{margin-top: 65px;}
-.btn-play-header{outline: none;cursor: pointer ; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 800; font-size: 49px; background-color: #FF9C38; border-radius: 50px; border: none; box-shadow: 0px 10px 0px 0px rgba(197,104,22,1);}
 .btn-play-width{width: 27%;}
-.btn-create-width{width: 44%;}
+.btn-create-width{width: 44%;} 
 
-/* .btn-play-header:active{-webkit-animation:scale-down-center .4s linear backwards;animation:scale-down-center .4s linear backwards}FIN PREMIERE MAQUETTE */
+.action-button{ height: 10%; padding: 10px 40px; border-radius: 50px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 800; font-size: 49px; text-decoration: none; background-color: #FF9C38; border-bottom: 10px solid rgb(197,104,22,1); transition: all 0.1s; -webkit-transition: all 0.1s;}
+.action-button:active{transform: translate(0px, 5px); -webkit-transform: translate(0px, 5px); border-bottom: 1px solid;}
 
 
 /* SECONDE MAQUETTE */
@@ -101,12 +101,18 @@ body{margin: 0; padding: 0;}
         .card-real:hover .description-game-hover{ opacity: 1; } /*PERMET DE RENDRE VISIBLE LE TEXTE AU SURVOL DU CURSEUR*/
     /* FIN SURVOL */
 
-    .triangle-right {  width: 10%;
-        height: 0;
-        border-left: 18px solid transparent;
-        border-right: 18px solid transparent;
-        border-bottom: 30px solid blue;}
+    /* .triangle-right {  width: 10%; height: 0; border-left: 18px solid transparent; border-right: 18px solid transparent; border-bottom: 30px solid blue;} */
 
+
+
+
+
+
+
+
+
+
+        
 /**********************MEDIA QUERIES**********************/
 
 @media (max-width: 575.98px) { 
@@ -159,7 +165,7 @@ body{margin: 0; padding: 0;}
     
     
     
-    @media (min-width: 576px) and (max-width: 767.98px) { 
+@media (min-width: 576px) and (max-width: 767.98px) { 
         
     /* PARTIE HEADER */
         /* TEXTES */
@@ -210,7 +216,7 @@ body{margin: 0; padding: 0;}
 
 .img-card-game{width: 100%; height: 255px; border-radius: 0%;}
     
-    }
+}
 
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
@@ -312,10 +318,10 @@ body{margin: 0; padding: 0;}
     
     
     
-    }
+}
     
     
-    @media (min-width: 1400px) and (max-width: 1599.98px) { 
+@media (min-width: 1400px) and (max-width: 1599.98px) { 
     
     /* PARTIE HEADER */
     
@@ -335,10 +341,10 @@ body{margin: 0; padding: 0;}
     
         
     
-    }
+}
     
     
-    @media (min-width: 1600px) and (max-width: 1799.98px) { 
+@media (min-width: 1600px) and (max-width: 1799.98px) { 
     /* PARTIE HEADER */
     
         /* IMAGES */
@@ -381,10 +387,10 @@ body{margin: 0; padding: 0;}
     
         
     
-    }
+}
     
     
-    @media (min-width: 1800px) and (max-width: 1999.98px) { 
+@media (min-width: 1800px) and (max-width: 1999.98px) { 
     
     /* PARTIE EXPLICATION ESCAPE */
     
@@ -396,4 +402,4 @@ body{margin: 0; padding: 0;}
             .content-img-game-02 { margin-left: -150px; }
       
     
-    }
+}
