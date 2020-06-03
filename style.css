@@ -102,7 +102,49 @@ a.text-light:focus, a.text-light:hover {color: white!important; }
         .card-real:hover .description-game-hover{ opacity: 1; } /*PERMET DE RENDRE VISIBLE LE TEXTE AU SURVOL DU CURSEUR*/
     /* FIN SURVOL */
 
-    .triangle-right {  width: 0; height: 0; border-left: 50px solid transparent; border-right: 50px solid transparent; border-bottom: 100px solid white; }
+   
+
+
+
+/* CAROUSEL */
+
+/* .fa, .fas {
+    font-size: 50px;
+    
+}
+.btn-secondary {
+    color: black;
+    background-color: transparent!important;
+    border-color: transparent!important;
+}
+
+.btn-secondary:hover {
+    color: black;
+    background-color: transparent!important;
+    border-color: transparent!important;
+}
+
+.btn-secondary:active{
+    color: black;
+    background-color: transparent!important;
+    border-color: transparent!important;
+}
+
+.controls-top{outline: none;} */
+
+
+
+
+
+
+/* FIN CAROUSEL */
+
+
+/* MAQUETTE FORMULAIRE & CONNEXION */
+
+.bg-header-sombre{background-image: url('img/img-header-01.jpg');width: 100%; height: 100vh; background-repeat: no-repeat; background-size: cover; position: relative;}
+
+.bg-opac{background-color: rgba(0, 0, 0, 0.726);}
 
 
 
@@ -113,7 +155,7 @@ a.text-light:focus, a.text-light:hover {color: white!important; }
 
 
 
-        
+
 /**********************MEDIA QUERIES**********************/
 
 @media (max-width: 575.98px) { 
